@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_blue">#33658A</color>
+    <color name="dark_sky_blue">#86BBD8</color>
+    <color name="palm_leaf">#758E4F</color>
+    <color name="saffron">#F6AE2D</color>
+    <color name="giants_orange">#F26419</color>
+    <color name="black">#000000</color>
+    <color name="simple_white">#FFFFFF</color>
+    <color name="light_grey">#d3d3d3</color>
+    <color name="online_green">#00ff00</color>
+</resources>

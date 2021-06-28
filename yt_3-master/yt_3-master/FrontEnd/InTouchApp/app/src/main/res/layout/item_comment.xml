@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="?attr/colorPrimaryDark"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left">
+
+        <ImageButton
+            android:id="@+id/upvoteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            app:srcCompat="@drawable/ic_upvote" />
+
+        <TextView
+            android:id="@+id/pointBox"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/upvoteButton"
+            android:gravity="center"
+            android:text="100" />
+
+        <ImageButton
+            android:id="@+id/downvoteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pointBox"
+
+            app:srcCompat="@drawable/ic_downvote" />
+
+        <TextView
+            android:id="@+id/timeDateBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/moreButton"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:text="00:00 00/00/0000" />
+
+        <ImageButton
+            android:id="@+id/moreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/ic_vmore" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="?attr/colorPrimary"
+            android:id="@+id/userIdBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="user_admin" />
+
+        <TextView
+            android:textColor="?attr/colorPrimary"
+            android:id="@+id/commentBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Hello World!" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">inTouch</string>
+    <string name="string">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="user">username</string>
+    <string name="statement1">Enter your username!</string>
+    <string name="setupName">Username</string>
+    <string name="done">Done</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="dialog_this_is_a_test">This is a test dialog</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_submit">Submit</string>
+    <string name="title_activity_test_image">TestImage</string>
+    <string name="title_activity_image_upload">ImageUpload</string>
+</resources>

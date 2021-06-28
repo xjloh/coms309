@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/switch_screens_button"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Switch to Auxiliary Screen"
+        android:layout_margin="10px"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    />
+
+    <TextView
+        android:id="@+id/latitude_box_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textColor="#FFFFFFFF"
+        android:layout_margin="10px"
+
+        app:layout_constraintTop_toBottomOf="@+id/switch_screens_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/latitude_box"
+    />
+
+    <EditText
+        android:id="@+id/latitude_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTrim"
+        android:backgroundTint="@color/colorTrimDark"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:layout_margin="15px"
+
+        app:layout_constraintTop_toBottomOf="@+id/switch_screens_button"
+        app:layout_constraintLeft_toRightOf="@+id/latitude_box_label"
+    />
+
+    <TextView
+        android:id="@+id/longitude_box_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textColor="#FFFFFFFF"
+        android:layout_margin="10px"
+
+        app:layout_constraintTop_toBottomOf="@+id/latitude_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/longitude_box"
+    />
+
+    <EditText
+        android:id="@+id/longitude_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTrim"
+        android:backgroundTint="@color/colorTrimDark"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:layout_margin="15px"
+
+        app:layout_constraintTop_toBottomOf="@+id/latitude_box"
+        app:layout_constraintLeft_toRightOf="@+id/longitude_box_label"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">inTouch</string>
+    <string name="Email">string</string>
+    <string name="string">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login or Register</string>
+    <string name="user">username</string>
+    <string name="statement1">Enter your username!</string>
+    <string name="setupName">Username</string>
+    <string name="done">Done</string>
+</resources>

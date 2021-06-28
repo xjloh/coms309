@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+    <item
+        android:id="@+id/menuItem_MainScreen"
+        app:showAsAction="never"
+        android:title="Main Screen"
+    >
+    </item>
+    <item
+        android:id="@+id/menuItem_PostThread"
+        app:showAsAction="never"
+        android:title="Post Thread"
+        >
+    </item>
+    <item
+        android:id="@+id/menuItem_ThreadDisplay"
+        app:showAsAction="never"
+        android:title="Display Threads"
+        >
+    </item>
+    <item
+        android:id="@+id/menuItem_TitleList"
+        app:showAsAction="never"
+        android:title="List Thread Titles"
+        >
+    </item>
+    <item
+        android:id="@+id/menuItem_RandomChat"
+        app:showAsAction="never"
+        android:title="Random Chat"
+        >
+    </item>
+    <item
+        android:id="@+id/menuItem_Inbox"
+        app:showAsAction="never"
+        android:title="Friends"
+        >
+    </item>
+    <item
+        android:id="@+id/menuItem_Chatlist"
+        app:showAsAction="never"
+        android:title="Chat"
+        >
+    </item>
+    <item
+        android:id="@+id/menutItem_PersonalProfile"
+        app:showAsAction="never"
+        android:title="Your Profile"
+        >
+    </item>
+
+</menu>
